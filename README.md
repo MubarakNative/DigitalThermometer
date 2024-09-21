@@ -49,16 +49,14 @@ For contrast adjustment (recommended), wire a 10k potentiometer to +5V and GND o
 
 ![Circuit Diagram for this project](/Circuit%20Diagram.png)
 
-#### Testing
-
-![Result](/Demonstration.mp4)
-
+#### Final Result
+![](/Demonstration.mp4)
 
 ![Final Outcome](/Result.jpg)
 
 #### Features
 
-It can measure temperatures from -40°C to 125°C and provides accurate measurements. When using the **I2C module**, you can significantly reduce the number of connecting wires for the LCD display.
+It can measure temperatures from -40°C to 125°C and provides accurate measurements. When using the **[I2C module](https://www.electronicscomp.com/i2c-module-16x2-lcd-india?srsltid=AfmBOoo_OunJQKyrvgO4lYpPjTXFSa2Co8LRwglQHA_mQwI4zz0fai8h)**, you can significantly reduce the number of connecting wires for the LCD display.
 
 #### Additional Considerations:
 
