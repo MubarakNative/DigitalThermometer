@@ -1,19 +1,4 @@
-## 🌡️ Temperature Meter - Using Thermistor and Arduino With LCD 16x2 Display
-
-In this project, we will create a temperature meter using a thermistor and Arduino. Before building this project, it's essential to understand the key component: the thermistor.
-
-### What is a Thermistor?
-
-A thermistor, short for Thermal Resistor, is a type of resistor whose resistance changes with temperature. This component finds widespread use in various electronic circuits, such as SMPS, battery packs (for temperature detection), charging circuits, thermometers, and more.
-
-### Types of Thermistors
-
-There are two main types of thermistors:
-
-- **NTC (Negative Temperature Coefficient)**: The resistance decreases as temperature increases.
-- **PTC (Positive Temperature Coefficient)**: The resistance increases as temperature increases.
-
-For this project, we will use an NTC thermistor.
+## Temprature Monitering System
 
 ### Components Required
 
@@ -57,16 +42,6 @@ For contrast adjustment (recommended), wire a 10k potentiometer to +5V and GND o
 #### Features
 
 It can measure temperatures from -40°C to 125°C and provides accurate measurements. When using the **[I2C module](https://www.electronicscomp.com/i2c-module-16x2-lcd-india?srsltid=AfmBOoo_OunJQKyrvgO4lYpPjTXFSa2Co8LRwglQHA_mQwI4zz0fai8h)**, you can significantly reduce the number of connecting wires for the LCD display.
-
-#### Additional Considerations:
-
-1. Don't forget to install the **LiquidCrystal** library for the LCD display if it is not installed by default.
-
-Go to Sketch -> Include Library -> Manage Libraries...
-
-Search `LiquidCrystal` and install the latest version.
-
-2. Ensure the circuit connection is stable; if it isn't, it may show incorrect outputs on the display.
 
 ### Conclusion
 
